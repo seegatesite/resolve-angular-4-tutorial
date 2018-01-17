@@ -1,0 +1,14 @@
+<p>
+Detail Informasi
+</p>
+<ul *ngIf="detail">
+  <li>Name : {{detail.name}}</li>
+  <li>Username : {{detail.username}}</li>
+  <li>Phone : {{detail.phone}}</li>
+  <li>Email : {{detail.email}}</li>
+  <li>Website : {{detail.website}}</li>
+  <li>Address : {{detail.address.street}}</li>
+</ul>
+<p>
+  <a routerLink="../contact"  >Back</a>
+</p>

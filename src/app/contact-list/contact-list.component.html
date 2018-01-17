@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let contacts of contact">
+    <a routerLink="../contact-detail"   [queryParams]="{ id: contacts.id}">{{contacts.name}}</a>
+  </li>
+</ul>
